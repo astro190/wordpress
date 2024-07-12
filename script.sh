@@ -16,8 +16,8 @@ sudo k3d node create amritnode --cluster amritcluster
 
 echo "Deploying Wordpress to the cluster"
 
-sudo kubectl apply -f /home/amrit/wordpress/deployment.yaml
-sudo kubectl apply -f /home/amrit/wordpress/mysql.yaml
+sudo kubectl apply -f deployment.yaml
+sudo kubectl apply -f mysql.yaml
 
 
 echo "Verify the deployment"
